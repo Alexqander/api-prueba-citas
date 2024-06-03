@@ -1,0 +1,91 @@
+{
+    "_id": "5385ab63-2212-4840-bdc4-7964bebdba07",
+    "colName": "passportExpedition",
+    "created": "2024-06-03T18:58:13.993Z",
+    "sortNum": 10000,
+    "folders": [
+        {
+            "_id": "2af85256-70a8-467a-8a40-b4fa3dd10c44",
+            "name": "auth",
+            "containerId": "",
+            "created": "2024-06-03T18:58:13.994Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "19e4922f-638b-4318-856a-2cebe104ed2e",
+            "colId": "5385ab63-2212-4840-bdc4-7964bebdba07",
+            "containerId": "2af85256-70a8-467a-8a40-b4fa3dd10c44",
+            "name": "http://localhost:8080/api/login",
+            "url": "http://localhost:8080/api/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-03T18:58:13.995Z",
+            "modified": "2024-06-03T18:58:13.995Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "ejemplo4@gmail.com"
+                    },
+                    {
+                        "name": "pwd",
+                        "value": "1234"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            }
+        },
+        {
+            "_id": "e4667feb-5626-48db-a6c5-5fb6432eae4f",
+            "colId": "5385ab63-2212-4840-bdc4-7964bebdba07",
+            "containerId": "",
+            "name": "saveAppointment",
+            "url": "http://localhost:4000/api-appointments/1.0/appointments",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-03T18:58:13.996Z",
+            "modified": "2024-06-03T20:12:47.111Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"idAppointment\": 1,\n    \"folio\": \"0000901\",\n    \"date\":\"2024-06-03T11:44:42\",\n    \"processType\":{\n        \"idProcessType\":1,\n        \"name\":\"Passport Application\",\n        \"description\": \"Application for a new passport\",\n        \"docments\": [\n            \"Indenity Document\",\n            \"Nationality Document\",\n            \"...\"\n        ]\n    },\n    \"appointmetStatusses\": \"scheduled\",\n    \"branchOffice\": {\n       \"idbranch_office\":1,\n       \"name\": \"Main Office\",\n       \"address\":\"123 Main St. City Country\"\n    },\n    \"citizen\": {\n        \"idCitizen\":1,\n        \"name\":\"Dylan Steve\",\n        \"lastname\":\"Alvarez\",\n        \"middleName\": \"Zepeta\",\n        \"phone\": \"72234567890\",\n        \"gender\": \"M\",\n        \"dni\":\"123456789\",\n        \"emergencyContact\":\"89087652345\",\n        \"birthdate\":\"2002-11-21\",\n        \"profilePicture\":\"profile.jpg\",\n        \"nationality\":\"Guyanes\",\n        \"region\":\"Georgetown\",\n        \"counttry\":\"Guyana\"\n    }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a98f4892-eae3-497c-b3b0-fffa147d744f",
+            "colId": "5385ab63-2212-4840-bdc4-7964bebdba07",
+            "containerId": "",
+            "name": "getAllAppointments",
+            "url": "http://localhost:4000/api-appointments/1.0/appointments",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-03T20:02:35.741Z",
+            "modified": "2024-06-03T20:38:47.983Z",
+            "headers": []
+        },
+        {
+            "_id": "b0d6b58f-e491-4824-b5e4-64bf5b828472",
+            "colId": "5385ab63-2212-4840-bdc4-7964bebdba07",
+            "containerId": "",
+            "name": "findAppointment",
+            "url": "http://localhost:4000/api-appointments/1.0/appointments/find?folio=0000901",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-03T20:34:55.442Z",
+            "modified": "2024-06-03T20:38:34.090Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "folio",
+                    "value": "0000901",
+                    "isPath": false
+                }
+            ]
+        }
+    ]
+}

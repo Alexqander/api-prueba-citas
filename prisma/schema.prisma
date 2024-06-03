@@ -1,0 +1,69 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+
+model Appointment {
+  id                Int       @id @default(autoincrement())
+  folio             String    @unique
+  date              DateTime
+  processTypeId     Int
+  appointmentStatusId  Int
+  branchOfficeId    Int
+  citizenId         Int
+  appointmentStatus AppointmentStatus @relation(fields: [appointmentStatusId], references: [id])
+  processType       ProcessType   @relation(fields: [processTypeId], references: [id])
+  branchOffice      BranchOffice  @relation(fields: [branchOfficeId], references: [id])
+  citizen           Citizen       @relation(fields: [citizenId], references: [id])
+}
+
+model ProcessType {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String
+  documents   String[]
+  appointments Appointment[]
+}
+
+model AppointmentStatus {
+  id                Int      @id @default(autoincrement())
+  status            String @unique
+  appointments      Appointment[]
+
+}
+
+model BranchOffice {
+  id          Int       @id @default(autoincrement())
+  name        String
+  address     String
+  appointments Appointment[]
+}
+
+model Citizen {
+  id                Int      @id @default(autoincrement())
+  name              String
+  lastname          String
+  middleName        String
+  phone             String
+  gender            String
+  dni               String
+  emergencyContact  String
+  birthdate         DateTime
+  profilePicture    String
+  nationality       String
+  region            String
+  country           String
+  appointments      Appointment[]
+}

@@ -1,0 +1,75 @@
+[34mRequest ID: 8e113dbd-bb46-4821-8cbd-40d4fc175e9d[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:04:00 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 200 44 - 4.400 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: f03057b2-7c78-4ab3-ad8a-65db1da544ff[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:07:20 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 200 44 - 37.249 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: a1fc6b4e-d050-401d-a5be-dbd68e0b7620[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:13:27 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 16.702 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: d6f1ac6d-3319-490b-ad2b-a74d32455bc4[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:14:13 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 12.563 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: f5eec392-a85a-4da5-9a2d-dd3f147c81dd[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:21:00 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 18.025 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 05432f7c-29d8-4a4f-b9a4-f5ef094ecb2f[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:24:50 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 15.027 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 7352b557-419c-45d6-b509-d5343ccd433d[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:24:51 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 5.181 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 35a32bf2-0506-41e9-a5d3-35634593bb4e[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:24:51 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 2.920 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 488818cc-441f-4f82-9f59-f4dae7a7dea4[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:28:17 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 18.541 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 4de93e59-43ed-49c2-9325-409b77dc1af8[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:29:13 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 15.160 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: d4da50f2-ddd4-43ee-8117-639874b1131c[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:31:19 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 200 177 - 43.466 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: bb146014-9b2b-4205-85ac-7036e8bae48c[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:31:33 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 200 179 - 6.123 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 6a834b8e-2d2b-40c8-973d-dfe6c84d1db1[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:33:42 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 200 779 - 25.179 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 76b3ee25-1fff-46be-8670-7fcc73e419d9[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:38:53 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments/find?folio=0000901[39m
+[31mStatus and Content Length: 200 177 - 19.501 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: f35fbf83-758a-4945-9b1e-706954bc7262[39m
+[33mDate and Time: Mon, 03 Jun 2024 20:39:42 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments/find?folio=0000901[39m
+[31mStatus and Content Length: 200 777 - 35.719 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
