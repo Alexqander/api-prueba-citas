@@ -56,6 +56,7 @@ model Citizen {
   name              String
   lastname          String
   middleName        String
+  username          String 
   phone             String
   gender            String
   dni               String

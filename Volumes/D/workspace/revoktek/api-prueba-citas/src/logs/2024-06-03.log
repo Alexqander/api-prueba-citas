@@ -83,3 +83,33 @@
 [32mMethod and URL: POST /api-appointments/1.0/appointments[39m
 [31mStatus and Content Length: 500 86 - 21.124 ms[39m
 [36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 11eba1aa-7d01-4c68-a447-ddb6e5ab0d07[39m
+[33mDate and Time: Mon, 03 Jun 2024 21:34:38 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 51.342 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 268c7af0-01c6-4b1a-82f8-36018c9ad533[39m
+[33mDate and Time: Mon, 03 Jun 2024 21:35:53 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 24.299 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 3a0f6e5b-9032-4d47-b5d9-c22eeb4b0d49[39m
+[33mDate and Time: Mon, 03 Jun 2024 21:37:22 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 200 44 - 17.292 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 4ad30ac8-a980-4426-a3ce-fbe47b5dcf1c[39m
+[33mDate and Time: Mon, 03 Jun 2024 21:37:24 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments/find?folio=0000901[39m
+[31mStatus and Content Length: 200 46 - 11.307 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: af6ba310-774a-43c6-9477-dee9c581b9a8[39m
+[33mDate and Time: Mon, 03 Jun 2024 21:37:30 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 200 177 - 29.846 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 0a0556b4-5698-47a5-8896-67d24899b86c[39m
+[33mDate and Time: Mon, 03 Jun 2024 21:37:34 GMT[39m
+[32mMethod and URL: GET /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 200 820 - 11.407 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m

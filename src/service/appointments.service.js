@@ -94,6 +94,7 @@ export const saveAppointment = async (appointmentDto) => {
               name: citizen.name,
               lastname: citizen.lastname,
               middleName: citizen.middleName,
+              username: citizen.username,
               phone: citizen.phone,
               gender: citizen.gender,
               dni: citizen.dni,

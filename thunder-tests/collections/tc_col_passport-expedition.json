@@ -48,11 +48,11 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-06-03T18:58:13.996Z",
-            "modified": "2024-06-03T20:12:47.111Z",
+            "modified": "2024-06-03T21:35:51.847Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"idAppointment\": 1,\n    \"folio\": \"0000901\",\n    \"date\":\"2024-06-03T11:44:42\",\n    \"processType\":{\n        \"idProcessType\":1,\n        \"name\":\"Passport Application\",\n        \"description\": \"Application for a new passport\",\n        \"docments\": [\n            \"Indenity Document\",\n            \"Nationality Document\",\n            \"...\"\n        ]\n    },\n    \"appointmetStatusses\": \"scheduled\",\n    \"branchOffice\": {\n       \"idbranch_office\":1,\n       \"name\": \"Main Office\",\n       \"address\":\"123 Main St. City Country\"\n    },\n    \"citizen\": {\n        \"idCitizen\":1,\n        \"name\":\"Dylan Steve\",\n        \"lastname\":\"Alvarez\",\n        \"middleName\": \"Zepeta\",\n        \"phone\": \"72234567890\",\n        \"gender\": \"M\",\n        \"dni\":\"123456789\",\n        \"emergencyContact\":\"89087652345\",\n        \"birthdate\":\"2002-11-21\",\n        \"profilePicture\":\"profile.jpg\",\n        \"nationality\":\"Guyanes\",\n        \"region\":\"Georgetown\",\n        \"counttry\":\"Guyana\"\n    }\n}",
+                "raw": "{\n  \"idAppointment\": 5,\n  \"folio\": \"0000905\",\n  \"date\": \"2024-10-15T11:00:00\",\n  \"processType\": {\n    \"idProcessType\": 5,\n    \"name\": \"Health Insurance Application\",\n    \"description\": \"Application for health insurance\",\n    \"docments\": [\n      \"Medical Records\",\n      \"Identification Proof\",\n      \"...\"\n    ]\n  },\n  \"appointmetStatusses\": \"pending\",\n  \"branchOffice\": {\n    \"idbranch_office\": 2,\n    \"name\": \"East Office\",\n    \"address\": \"456 East St. City Country\"\n  },\n  \"citizen\": {\n    \"idCitizen\": 5,\n    \"name\": \"Carlos\",\n    \"lastname\": \"Martinez\",\n    \"middleName\": \"Rodriguez\",\n    \"username\":\"alexander@guyana.com\",\n    \"phone\": \"72567890123\",\n    \"gender\": \"M\",\n    \"dni\": \"789123456\",\n    \"emergencyContact\": \"89345678901\",\n    \"birthdate\": \"1992-07-22\",\n    \"profilePicture\": \"profile5.jpg\",\n    \"nationality\": \"Mexican\",\n    \"region\": \"Mexico City\",\n    \"counttry\": \"Mexico\"\n  }\n}\n",
                 "form": []
             }
         },
