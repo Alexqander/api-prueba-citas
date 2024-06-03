@@ -45,6 +45,16 @@ export const saveAppointment = async (appointmentDto) => {
       citizen
     } = appointmentDto;
 
+    const appointmentExist = await prisma.appointment.findUnique({
+      where: {
+        folio
+      }
+    });
+
+    if (appointmentExist) {
+      return getMessage(true, null, 'Appointment already exist');
+    }
+
     const appointment = await prisma.appointment.create({
       data: {
         folio: folio,

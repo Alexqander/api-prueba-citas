@@ -73,3 +73,13 @@
 [32mMethod and URL: GET /api-appointments/1.0/appointments/find?folio=0000901[39m
 [31mStatus and Content Length: 200 777 - 35.719 ms[39m
 [36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: 8c97cfb2-d9c8-42a5-a4ac-ba0ecbcc419b[39m
+[33mDate and Time: Mon, 03 Jun 2024 21:15:39 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 66 - 66.930 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
+[34mRequest ID: b4ce04ae-6935-4763-87d0-6899ceed467e[39m
+[33mDate and Time: Mon, 03 Jun 2024 21:16:54 GMT[39m
+[32mMethod and URL: POST /api-appointments/1.0/appointments[39m
+[31mStatus and Content Length: 500 86 - 21.124 ms[39m
+[36mUser Agent: Thunder Client (https://www.thunderclient.com)[39m
