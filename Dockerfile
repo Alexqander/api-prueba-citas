@@ -20,7 +20,7 @@ COPY .env ./
 # Genera el cliente de prisma
 RUN npm run generate
 RUN npm run migrate
-RUN npm run data
+
 
 
 # Crear directorio de logs si es necesario
