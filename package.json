@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./src/app.js",
+    "migrate-fix": "prisma migrate reset --force && prisma migrate deploy",
     "migrate": "prisma migrate deploy",
     "start": "node src/app.js",
     "generate": "prisma generate"

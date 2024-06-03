@@ -19,7 +19,7 @@ COPY .env ./
 
 # Genera el cliente de prisma
 RUN npm run generate
-RUN npm run migrate
+RUN npm run migrate-fix
 
 
 
